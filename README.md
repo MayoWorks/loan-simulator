@@ -1,6 +1,7 @@
 # loan-simulator
 Loan calculator built with PHP
 
+## Overview
 中古車販売店で働く友人から、「自動車ローンの一括返済額はローン会社へ問い合わせないと分からず、
 お客様へ概算をすぐ案内できるツールが欲しい」という相談を受け、このシミュレーターを開発しました。
 
@@ -25,13 +26,28 @@ Loan calculator built with PHP
 
 ※ 実際の一括返済額は契約先のローン会社へお問い合わせください。
 
+## Screenshots
+
+### Input
+
+![Top](screenshots/top.png)
+
+### Result
+
+![Result](screenshots/result1.png)
+
+![Result](screenshots/result2.png)
+
+![Result](screenshots/result3.png)
+
+## Technologies
 使用技術
 ・PHP
-・JavaScript
 ・HTML
 ・CSS
 
+## Features
 開発の目的
-
 実際の業務で利用できるツールを目指し、現場での使いやすさを重視して開発しました。
 今後は、返済予定表やグラフ表示などの機能追加も予定しています。
+
