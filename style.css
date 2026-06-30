@@ -1,0 +1,132 @@
+.head {
+    max-width: 500px;
+    margin: 20px auto;
+    font-family: sans-serif;
+    text-align: center; 
+}
+
+.loan-form {
+  max-width:500px;
+  margin:20px auto;
+  font-family:sans-serif;
+  text-align: center;
+}
+
+.loan-group {
+  margin-bottom:30px;
+  text-align: center;
+}
+
+.loan-label {
+  font-size:18px;
+  font-weight:bold;
+  text-align: center;
+}
+
+.loan-input {
+  width:100%;
+  padding:14px;
+  font-size:18px;
+  margin-top:8px;
+  border:2px solid #ddd;
+  border-radius:8px;
+  box-sizing:border-box;
+  transition:0.2s;
+text-align: center;
+}
+
+.loan-input:focus {
+  border-color:#2196F3;
+  text-align: center;
+}
+
+/* ボタン */
+
+.loan-btn {
+  width:100%;
+  padding:18px;
+  margin-bottom:12px;
+  color:#fff;
+  border:none;
+  border-radius:12px;
+  font-size:18px;
+  text-align:center;
+  box-shadow:0 4px 10px rgba(0,0,0,0.1);
+  transition:0.2s;
+
+}
+
+.loan-btn:active {
+  transform:scale(0.97);
+  text-align: center;
+}
+
+/* 色 */
+
+.ca { background:#2196F3; }
+.cb { background:#FF9800; }
+.cc { background:#9C27B0; }
+
+/* 結果エリア */
+
+.result-title{
+    width: 100%;
+    margin-top:35px;
+    margin-bottom:15px;
+    font-size:28px;
+    font-weight:bold;
+    text-align:center;
+    color:#333;
+}
+
+.result-box{
+    width: 100%;
+    background:#fff;
+    border-radius:16px;
+    padding:30px;
+    margin-bottom: 12px;
+    text-align:center;
+    border:3px solid #2196F3;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+}
+
+.result-price{
+    width: 100%;
+    font-size:42px;
+    font-weight:bold;
+    color:#2196F3;
+}
+
+.result-total{
+    width: 100%;
+    margin-top:25px;
+    font-size:24px;
+    text-align:center;
+}
+
+.result-total span{
+    font-size:32px;
+    font-weight:bold;
+    color:#e91e63;
+}
+
+.result-comment{
+    margin-top:25px;
+    padding:18px;
+    background:#f5f7fa;
+    border-radius:12px;
+    text-align:center;
+    font-size:18px;
+}
+
+.result-note{
+    margin-top:20px;
+    padding:16px;
+    background:#fff8e1;
+    border-left:6px solid #ffb300;
+    border-radius:8px;
+    font-size:15px;
+    color:#555;
+    line-height:1.7;
+    text-align: center;
+}
